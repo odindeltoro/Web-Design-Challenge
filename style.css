@@ -1,0 +1,109 @@
+body {
+    height: 100vh;
+    background-color: snow;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+h1 {
+    font-weight: 400;
+    color:steelblue;
+}
+
+h2 {
+    font-weight: 300;
+    color:steelblue;
+}
+
+p {
+    color: rgb(0, 0, 0);
+}
+
+hr {
+    border-color:midnightblue;
+}
+
+.container {
+    padding-bottom: 50px;
+    font-size: 20px;
+}
+
+nav .navbar-brand {
+    font-size: 50px;
+    font-weight: 600;
+    margin-left: 30px;
+}
+
+.dropdown-menu {
+    background: linear-gradient(rgb(82, 110, 133), rgb(27, 79, 122),rgb(52, 129, 192));
+}
+
+nav .navbar-nav li a.dropdown-item {
+    color: snow;
+}
+
+nav.navbar {
+    background: linear-gradient(rgb(82, 110, 133), rgb(27, 79, 122),rgb(52, 129, 192));
+}
+
+.images li {
+    float:left;
+    width: 40%;
+    margin:10px;
+}
+
+.images img {
+    width:100%;
+}
+
+.visualizationTitle {
+    margin-left: 50px;
+}
+
+.WebFooter{
+    background: linear-gradient(rgb(82, 110, 133), rgb(27, 79, 122),rgb(52, 129, 192));
+    color: snow; 
+    min-height: 40px; 
+    font-size: 20px; 
+    text-align: center; 
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    padding-top: 10px; 
+    margin-top:10px;
+}
+
+.row{
+    margin-bottom: 30px;
+}
+@media(max-width: 700px){
+
+    nav .navbar-collapse.collapse {
+        clear: both;
+        float: left;
+    }
+    nav .navbar-brand {
+        margin-left: 20px;
+    }
+    .navbar-collapse {
+        padding-left: 0;
+    }
+    ul.navbar-nav {
+        padding-left: 20px;
+    }
+    nav .navbar-nav li a {
+        display: block;
+
+    }
+ 
+}
+
+table {
+    color:black;  
+    text-align: center;
+}
+
+th {
+    background: linear-gradient(rgb(82, 110, 133), rgb(27, 79, 122),rgb(52, 129, 192));
+    color:snow;
+}

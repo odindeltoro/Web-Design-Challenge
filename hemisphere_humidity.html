@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Weather dashboard</title>
+    <link rel="stylesheet" href="reset.css">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css"
+        integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous">
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"
+        integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj"
+        crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js"
+        integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo"
+        crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js"
+        integrity="sha384-OgVRvuATP1z7JjHLkuOU7Xw704+h835Lr+6QL9UvYjZE3Ipu6Tp75j7Bh/kR0JKI"
+        crossorigin="anonymous"></script>
+</head>
+
+<body>
+    <nav class="navbar navbar-expand-lg navbar-dark">
+        <a class="navbar-brand active" href="https://odindeltoro.github.io/Web-Design-Challenge/index.html">Latitude</a>
+        <div class="collapse navbar-collapse" id="navbarNavDropdown">
+            <ul class="navbar-nav ml-auto">
+                <li class="nav-item dropdown">
+                    <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button"
+                        data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                        Plots <span class="caret"></span>
+                    </a>
+                    <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                        <a class="dropdown-item"
+                            href="https://odindeltoro.github.io/Web-Design-Challenge/temperature.html">Temperature</a>
+                        <a class="dropdown-item"
+                            href="https://odindeltoro.github.io/Web-Design-Challenge/humidity.html">Humidity</a>
+                        <a class="dropdown-item"
+                            href="https://odindeltoro.github.io/Web-Design-Challenge/cloudiness.html">Cloudiness</a>
+                        <a class="dropdown-item"
+                            href="https://odindeltoro.github.io/Web-Design-Challenge/windspeed.html">Wind Speed</a>
+                    </div>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link"
+                        href="https://odindeltoro.github.io/Web-Design-Challenge/weather_cities.html">Data</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link"
+                        href="https://odindeltoro.github.io/Web-Design-Challenge/comparison.html">Comparisons</a>
+                </li>
+                <li class="nav-item dropdown">
+                    <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button"
+                        data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                        Hemisphere comparisons <span class="caret"></span>
+                    </a>
+                    <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                        <a class="dropdown-item"
+                            href="https://odindeltoro.github.io/Web-Design-Challenge/hemisphere_temperature.html">Hemisphere
+                            temperature</a>
+                        <a class="dropdown-item"
+                            href="https://odindeltoro.github.io/Web-Design-Challenge/hemisphere_humidity.html">Hemisphere
+                            humidity</a>
+                        <a class="dropdown-item"
+                            href="https://odindeltoro.github.io/Web-Design-Challenge/hemisphere_cloudiness.html">Hemisphere
+                            cloudiness</a>
+                        <a class="dropdown-item"
+                            href="https://odindeltoro.github.io/Web-Design-Challenge/hemisphere_windspeed.html">Hemisphere
+                            wind speed</a>
+                    </div>
+                </li>
+            </ul>
+        </div>
+    </nav>
+
+    <div class="container">
+        <div class="row">
+            <div class="col-md-14">
+                <h1>Hemispheres Humidity</h1>
+                <hr>
+                <img src="Resources/assets/images2/northhumidity.png" style="float:left; margin-right:10px"
+                    width="100%">
+                <img src="Resources/assets/images2/southhumidity.png" style="float:left; margin-right:10px"
+                    width="100%">
+                <p> Cities have high humidity percentage regardless of its hemisphere. There is very weak correlation between latitude and humidity percentage.
+                </p>
+            </div>
+        </div>
+    </div>
+    <footer class="WebFooter">
+        <div class="footer-copyright text-center py-3">Copyright &copy; Coding Bootcamp Odin Del Toro 2020</div>
+    </footer>
+</body>
+
+</html>
